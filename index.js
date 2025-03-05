@@ -71,12 +71,10 @@ console.log(chunkkk);
 
 // Noveno Ejercicio
 
-// const persona = { nombre: "Carlos", apellido: "Pérez", edad: 28 };
+const persona = { nombre: "Carlos", apellido: "Pérez", edad: 28 };
 
-// const Mayus = _.mapKeys(persona, (value, key) => _.toUpper(key));
-// console.log(mapKeys);
-
-// No se por que no se me activa el map keys
+const Mayus = _.mapKeys(persona, (value, key) => _.toUpper(key));
+console.log(Mayus);
 
 // Decimo Ejercicio
 
